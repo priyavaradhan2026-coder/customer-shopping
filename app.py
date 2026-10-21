@@ -27,8 +27,7 @@ with st.container(border=True):
     col1,col2 = st.columns(2)
 
     with col1:
-        Age = st.number_input("Age: ",min_value=18,
-                            max_value=100,value=20)
+        Age = st.number_input("Age: ", min_value=18, max_value=65, value=41)
         Annual_Income = st.number_input("Annual income: ",
                                         min_value=180000, max_value=1700000, value=752000)
         Website_Visits = st.number_input("Website visits: ",
